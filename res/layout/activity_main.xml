@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"  
+    android:background="#5f5951"  
+    android:orientation="horizontal" >  
+  
+    <fragment  
+        android:id="@+id/listFragment"  
+        android:layout_width="0dp"  
+        android:layout_height="match_parent"  
+        android:layout_marginBottom="?android:attr/actionBarSize"  
+        android:layout_marginTop="?android:attr/actionBarSize"  
+        android:layout_weight="1"  
+        class="com.android.listfragment.ListFragment" >  
+    </fragment>  
+  
+    <FrameLayout  
+        android:id="@+id/detailFragment"  
+        android:layout_width="0dp"  
+        android:layout_height="match_parent"  
+        android:layout_weight="2" >  
+    </FrameLayout>  
+  
+</LinearLayout>  
